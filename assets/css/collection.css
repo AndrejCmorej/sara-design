@@ -5659,8 +5659,8 @@ span.radioo:hover {
     -o-transition: background .4s linear;
 }
 
-.checked {
-	background: red;
+.checkedd {
+	background: red !important;
 }
 
 label {
@@ -6028,7 +6028,7 @@ z-index:98;
 transition: all .3s ease;
 }
 .site-header-fixed-background.sticky{
-background:white;
+background:#b4b2b2eb;
 position:fixed;
 top:0;
 left:0;
@@ -6043,6 +6043,7 @@ border-bottom:1px solid #C2C2C2;
 transition: all .3s ease;
 }
 .site-logo-image{
+box-shadow: 0px 0px 5px white;
 position:relative;
 max-height:80px;
 max-width:255px;
@@ -6987,6 +6988,13 @@ transform: translate(-50%, -50%);
 .ypop-checkzone input.no-view+span {
 margin-top: 5px;
 }
+
+a.faceb:hover{
+			color: #4267b2 !important;
+		}
+		a.instag:hover{
+			color: red !important;
+		}
 .ypop-wrapper a.close {
 background-image: url(../../../themes/outlaw/css/images/popclose.png)!important;
 background-color: #fff!important;

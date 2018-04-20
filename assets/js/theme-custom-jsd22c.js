@@ -91,14 +91,23 @@ $("h3").each(function (index, element)
 (function($) {
     "use strict";
         $('li.product').hover(function() {
-            $(this).find('img').fadeTo(500, 0.8);
-        }, function() {
-            $(this).find('img').fadeTo(500, 1);
+            $(this).find('img').stop( true, true ).fadeTo(500, 0.8);
+        },
+         function() {
+            $(this).find('img').stop( true, true ).fadeTo(500, 1);
         });
         $('.related.products h2').addClass("background-line");
-
         //$('div[id^="redux_blast"]').remove();
 
+
+         $('.radioo').on('click', function(){
+                $(this).addClass('checkedd');
+                $('.radioo').not(this).removeClass('checkedd');
+              });
+         $('.other2 input').on('click', function(){
+            $('.other1 span').addClass('checkedd');
+            $('.radioo').not('.other1 span').removeClass('checkedd');
+         });
 })(jQuery);
 
 // Product Counters

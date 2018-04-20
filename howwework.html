@@ -23,7 +23,7 @@
   		crossorigin="anonymous">
   	</script>
 	<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://demo.elusivethemes.com/outlaw/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://demo.elusivethemes.com/outlaw/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]-->
-	<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1455888568844{margin-top: -200px !important;margin-bottom: 60px !important;}.vc_custom_1452786392390{margin-top: -40px !important;margin-bottom: 0px !important;padding-top: 20px !important;}.vc_custom_1452798360648{padding-bottom: 50px !important;}.vc_custom_1452737857423{margin-top: -40px !important;margin-bottom: -200px !important;padding-top: 20px !important;background-color: #ffffff !important;}.vc_custom_1452798389180{padding-top: 50px !important;padding-right: 15% !important;padding-bottom: 100px !important;padding-left: 15% !important;}.vc_custom_1452798398342{padding-top: 50px !important;padding-right: 40% !important;padding-bottom: 100px !important;padding-left: 2% !important;}.vc_custom_1452738126569{padding-bottom: 90px !important;}
+	<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1455888568844{margin-top: -200px !important;margin-bottom: 60px !important;}.vc_custom_1452786392390{margin-top: -40px !important;margin-bottom: 0px !important;padding-top: 20px !important;}.vc_custom_1452798360648{padding-bottom: 50px !important;}.vc_custom_1452737857423{margin-top: -40px !important;margin-bottom: -200px !important;padding-top: 20px !important;background-color: #ffffff !important;}.vc_custom_1452798389180{padding-top: 50px !important;padding-right: 15% !important;padding-bottom: 0px !important;padding-left: 15% !important;}.vc_custom_1452798398342{padding-top: 50px !important;padding-right: 40% !important;padding-bottom: 100px !important;padding-left: 2% !important;}.vc_custom_1452738126569{padding-bottom: 90px !important;}
 		p {
 			text-align: justify;
 		}
@@ -31,8 +31,11 @@
 			text-align: center;
 
 		}
+		.mob {
+			display: none;
+		}
 		</style>
-		<style type="text/css" title="dynamic-css" class="options-output">body{background-color:white;}.site-content{background-color:#f7f7f7;}.site-logo{top:-6px;bottom:0px;left:0px;right:0px;}.site-footer{background-color:#ebebeb;background-repeat:repeat;}h1{font-family:Oswald;text-transform:uppercase;line-height:30px;letter-spacing:0.3px;font-weight:700;font-style:normal;color:#333;font-size:25px;}h2, .term-description{font-family:Oswald;text-transform:uppercase;line-height:50px;letter-spacing:0.3px;font-weight:700;font-style:normal;color:#353535;font-size:25px;}h3, .archive h1{font-family:Oswald;text-transform:uppercase;line-height:26px;letter-spacing:0px;font-weight:400;font-style:normal;color:#161616;font-size:15px;}h4{font-family:Oswald;text-transform:uppercase;line-height:30px;letter-spacing:0.2px;font-weight:400;font-style:normal;color:#333;font-size:16px;}h5, h6{font-family:Oswald;line-height:50px;letter-spacing:0px;font-weight:400;font-style:normal;color:#333;font-size:30px;}body{font-family:Questrial;line-height:30px;letter-spacing:0.4px;font-weight:400;font-style:normal;color:#333333;font-size:13px;}a{color:#000000;}a:hover{color:#ff0000;}a:active{color:#ff0000;}.main-navigation .menu a{font-family:Oswald;text-transform:uppercase;line-height:25px;letter-spacing:0.8px;font-weight:400;font-style:normal;color:#565656;font-size:15px;}
+		<style type="text/css" title="dynamic-css" class="options-output">body{background-color:white;}.site-content{background-color:#f7f7f7;}.site-logo{top:-6px;bottom:0px;left:0px;right:0px;}.site-footer{background-color:#ebebeb;background-repeat:repeat;}h1{font-family:Oswald;text-transform:uppercase;line-height:30px;letter-spacing:0.3px;font-weight:700;font-style:normal;color:#333;font-size:25px;}h2, .term-description{font-family:Oswald;text-transform:uppercase;line-height:50px;letter-spacing:0.3px;font-weight:700;font-style:normal;color:#353535;font-size:25px;}h3, .archive h1{font-family:Oswald;text-transform:uppercase;line-height:26px;letter-spacing:0px;font-weight:400;font-style:normal;color:#161616;font-size:15px;}h4{font-family:Oswald;text-transform:uppercase;line-height:30px;letter-spacing:0.2px;font-weight:400;font-style:normal;color:#333;font-size:16px;}h5, h6{font-family:Oswald;line-height:50px;letter-spacing:0px;font-weight:400;font-style:normal;color:#333;font-size:30px;}body{font-family:Questrial;line-height:30px;letter-spacing:0.4px;font-weight:400;font-style:normal;color:#333333;font-size:13px;}a{color:#000000;}a:hover{color:#ff0000;}a:active{color:#ff0000;}.main-navigation .menu a{font-family:Oswald;text-transform:uppercase;line-height:25px;letter-spacing:0.8px;font-weight:400;font-style:normal;color:white;font-size:15px;}
 			@media only screen and (max-width: 770px) {
 				.vc_custom_1452798389180 {
 					padding-top: 0 !important;
@@ -41,6 +44,15 @@
 				}
 				.vc_custom_1452798360648 {
 					padding-bottom: 0 !important;
+				}
+				.obr {
+					box-shadow: 0px 0px 8px #bdbdbd !important;
+				}
+				.mob {
+					display: block;
+				}
+				.mob1 {
+					display: none;
 				}
 			}
 		</style>
@@ -127,7 +139,7 @@
 	<div class="header-middle">
 		<div class="site-logo">
 			<a href="index.html">
-				<img src="assets/img/logo-new.png" alt="logo" class="site-logo-image">
+				<img src="assets/img/finallogo.jpg" alt="logo" class="site-logo-image">
 			</a>
 		</div>
 	</div>
@@ -141,12 +153,12 @@
 						<a href="order.html">Order</a>
 					</li>
 					<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-771">
-						<a href="https://sk-sk.facebook.com/saradesigndance/" target="_blank" class="vc_single_image-wrapper   vc_box_border_grey">
+						<a href="https://sk-sk.facebook.com/saradesigndance/" target="_blank" class="faceb vc_single_image-wrapper   vc_box_border_grey">
 							<i class="fab fa-facebook-square fa-2x"></i>
 						</a>
 					</li>
 					<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-771">
-						<a href="https://www.instagram.com/saradesign_official/" target="_blank" class="vc_single_image-wrapper   vc_box_border_grey">
+						<a href="https://www.instagram.com/saradesign_official/" target="_blank" class="instag vc_single_image-wrapper   vc_box_border_grey">
 							<i class="fab fa-instagram fa-2x"></i>
 						</a>
 					</li>
@@ -183,7 +195,7 @@
 													<ul>
 														<li data-index="rs-30" data-transition="papercut" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Big &amp; Bold" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 															<!-- MAIN IMAGE -->
-															<img src="assets/img/StephSheree_0102BW-e1450745407659.jpg"  alt=""  width="1955" height="892" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+															<img src="assets/img/slider99.jpg"  alt=""  width="1955" height="892" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 															<!-- LAYERS -->
 															<!-- LAYER NR. 1 -->
 															<div class="tp-caption tp-shape tp-shapewrapper  "
@@ -404,7 +416,7 @@
 						</div>
 						<div class="vc_row-full-width"></div>
 						<div class="vc_row wpb_row vc_row-fluid vc_custom_1452798360648">
-							<div class="wpb_column vc_column_container vc_col-sm-4">
+							<div class="wpb_column vc_column_container vc_col-sm-6">
 								<div class="vc_column-inner ">
 									<div class="wpb_wrapper">
 										<div class="wpb_text_column wpb_content_element  vc_custom_1452798389180">
@@ -421,7 +433,29 @@
 									</div>
 								</div>
 							</div>
-							<div class="wpb_column vc_column_container vc_col-sm-4">
+							<div class="wpb_column vc_column_container vc_col-sm-6">
+								<div class="vc_column-inner ">
+									<div class="wpb_wrapper">
+										<div class="wpb_text_column wpb_content_element  vc_custom_1452798389180">
+											<div class="wpb_wrapper">
+												<img class="obr" src="assets/img/hww3.jpeg" alt="" style="box-shadow: 5px 6px 5px #b4b2b2; ">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="wpb_column vc_column_container vc_col-sm-12">
+								<div class="vc_column-inner ">
+									<div class="wpb_wrapper">
+										<div class="wpb_text_column wpb_content_element  vc_custom_1452798389180">
+											<div class="wpb_wrapper">
+												<div style="border-bottom: 1px solid #b4b2b2; padding-top: 0 !important;"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mob wpb_column vc_column_container vc_col-sm-6">
 								<div class="vc_column-inner ">
 									<div class="wpb_wrapper">
 										<div class="wpb_text_column wpb_content_element  vc_custom_1452798389180">
@@ -435,13 +469,60 @@
 									</div>
 								</div>
 							</div>
-							<div class="wpb_column vc_column_container vc_col-sm-4">
+							<div class="wpb_column vc_column_container vc_col-sm-6">
+								<div class="vc_column-inner ">
+									<div class="wpb_wrapper">
+										<div class="wpb_text_column wpb_content_element  vc_custom_1452798389180">
+											<div class="wpb_wrapper">
+												<img class="obr" src="assets/img/hww9.jpg" alt="" style="box-shadow: -5px 6px 5px #b4b2b2;">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mob1 wpb_column vc_column_container vc_col-sm-6">
+								<div class="vc_column-inner ">
+									<div class="wpb_wrapper">
+										<div class="wpb_text_column wpb_content_element  vc_custom_1452798389180">
+											<div class="wpb_wrapper">
+												<h2 class="center">CREATING THE DRESS</h2>
+												<p>
+													When the team of couturiers have a good idea of the dress you want to create, they will initiate the process of designing and making it for you. During this process the team will send you pictures of the work in progress, during which time you are free to offer suggestions or amendments to the design. Remember that we want to create your dream dress.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="wpb_column vc_column_container vc_col-sm-12">
+								<div class="vc_column-inner ">
+									<div class="wpb_wrapper">
+										<div class="wpb_text_column wpb_content_element  vc_custom_1452798389180">
+											<div class="wpb_wrapper">
+												<div style="border-bottom: 1px solid #b4b2b2; padding-top: 0 !important;"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="wpb_column vc_column_container vc_col-sm-6">
 								<div class="vc_column-inner ">
 									<div class="wpb_wrapper">
 										<div class="wpb_text_column wpb_content_element  vc_custom_1452798389180">
 											<div class="wpb_wrapper">
 												<h2 class="center">DELIVERY</h2>
 												<p>Once the finished dress has been approved by you, we will deliver it via courier. The full process from receiving the order form through to delivery takes approximately four weeks. If you need the dress made to a tighter deadline, please let us know at the start so that we can deliver it to you in time.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="wpb_column vc_column_container vc_col-sm-6">
+								<div class="vc_column-inner ">
+									<div class="wpb_wrapper">
+										<div class="wpb_text_column wpb_content_element  vc_custom_1452798389180">
+											<div class="wpb_wrapper">
+												<img class="obr" src="assets/img/hww4.jpeg" alt="" style="box-shadow: 5px 6px 5px #b4b2b2;">
 											</div>
 										</div>
 									</div>
